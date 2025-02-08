@@ -167,3 +167,21 @@ html, body {
     font-size: 17px;
     
 }
+
+@media (max-width:500px) {
+    .overlay .text{
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .overlay .text .text-2{
+        flex-direction: column;
+    }
+    .overlay .text .text-2 p{
+        width: initial;
+        margin-top: 20px;
+
+    }
+    
+}
