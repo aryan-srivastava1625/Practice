@@ -74,9 +74,17 @@ html, body {
     width: 25%;
     height: 100%;
     background-color: #fff;
+    padding: 30px;
     /* background-image: url(https://media.istockphoto.com/id/2150988877/photo/professional-man-working-on-laptop-in-modern-office.jpg?s=1024x1024&w=is&k=20&c=biJEmAUXZoFqbZ482erRCZN5hi0QFijM-pteNJu2YI0=);
     background-size: cover;
     background-position: top; */
+    align-content: center;
+}
+
+.one p{
+    font-size: 15;
+    margin-top: 20px;
+    
 }
 
 .two{
@@ -88,7 +96,7 @@ html, body {
 }
 
 .three{
-    width: 25%;
+    width: 20%;
     height: 100%;
     
 }
@@ -96,18 +104,44 @@ html, body {
 .three-top{
     width: 100%;
     height: 50%;
-    background-color: mediumpurple;
+    background-color: #7C444F;
 }
 
 .three-bottom{
     width: 100%;
     height: 50%;
     background-color: #F0BB78;
+    background-image: url(https://images.unsplash.com/photo-1619410283995-43d9134e7656?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
 }
 
 
 .four{
-    width: 25%;
+    width: 30%;
     height: 100%;
-    background-color: red;
+    padding: 30px;
+    background-color: #27667B;
+    color: #fff;
+}
+
+.not{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.not .photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #7C444F;
+    
+}
+
+.not p{
+    width: 86%;
+    font-size: 17px;
+    
 }
