@@ -175,13 +175,40 @@ html, body {
         align-items: flex-start;
     }
 
+    .text h1{
+        font-size: 10vw;
+    }
+
     .overlay .text .text-2{
         flex-direction: column;
+        align-items: flex-start;
     }
     .overlay .text .text-2 p{
         width: initial;
         margin-top: 20px;
-
     }
+
+    .overlay .text .text-2 .icon{
+        margin-top: 30px;
+    }
+
+    .bottom{
+        flex-direction: column;
+    }
+
+    .one{
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+    }
+    .three{
+        width: 100%;
+    }
+    .four{
+        width: 100%;
+    }
+
+
     
 }
